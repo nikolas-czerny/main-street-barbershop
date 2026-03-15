@@ -8,3 +8,4 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.16 });
 
 document.querySelectorAll('[data-reveal]').forEach((el) => observer.observe(el));
+
